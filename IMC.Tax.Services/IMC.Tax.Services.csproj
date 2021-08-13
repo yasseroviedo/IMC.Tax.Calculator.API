@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IMC.Tax.Gateway\IMC.Tax.Gateway.csproj" />
+    <ProjectReference Include="..\IMC.Tax.Interfaces\IMC.Tax.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMC.Tax.Calculator.API", "IMC.Tax.Calculator.API\IMC.Tax.Calculator.API.csproj", "{803D2D8B-5A59-49BA-86DB-3C75A13A8CE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMC.Tax.Gateway", "IMC.Tax.Gateway\IMC.Tax.Gateway.csproj", "{A22B5C2C-17F7-467C-B93F-1DF372BBC0B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMC.Tax.Interfaces", "IMC.Tax.Interfaces\IMC.Tax.Interfaces.csproj", "{2C36A27E-7374-4561-AAC9-79131DC73A65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMC.Tax.Services", "IMC.Tax.Services\IMC.Tax.Services.csproj", "{A253A273-FC38-47AF-A225-0DB428FF3569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMC.Tax.Calculator.API.IntegrationTest", "IMC.Tax.Calculator.API.IntegrationTest\IMC.Tax.Calculator.API.IntegrationTest.csproj", "{0513E288-D78A-4FFF-8982-3456F608F81C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{803D2D8B-5A59-49BA-86DB-3C75A13A8CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803D2D8B-5A59-49BA-86DB-3C75A13A8CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803D2D8B-5A59-49BA-86DB-3C75A13A8CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803D2D8B-5A59-49BA-86DB-3C75A13A8CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22B5C2C-17F7-467C-B93F-1DF372BBC0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22B5C2C-17F7-467C-B93F-1DF372BBC0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22B5C2C-17F7-467C-B93F-1DF372BBC0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22B5C2C-17F7-467C-B93F-1DF372BBC0B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C36A27E-7374-4561-AAC9-79131DC73A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C36A27E-7374-4561-AAC9-79131DC73A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C36A27E-7374-4561-AAC9-79131DC73A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C36A27E-7374-4561-AAC9-79131DC73A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A253A273-FC38-47AF-A225-0DB428FF3569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A253A273-FC38-47AF-A225-0DB428FF3569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A253A273-FC38-47AF-A225-0DB428FF3569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A253A273-FC38-47AF-A225-0DB428FF3569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0513E288-D78A-4FFF-8982-3456F608F81C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0513E288-D78A-4FFF-8982-3456F608F81C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0513E288-D78A-4FFF-8982-3456F608F81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0513E288-D78A-4FFF-8982-3456F608F81C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A38055E4-A69B-4FA6-9D8A-13DD716C0337}
+	EndGlobalSection
+EndGlobal
