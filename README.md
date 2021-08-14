@@ -6,6 +6,14 @@ Main Project-->IMC.Tax.Calculator.API
 
 Test Project-->IMC.Tax.Calculator.API.IntegrationTest
 
+If Needed
+
+  NuGet Package Manager > Package Manager Console simply run:
+
+  dotnet restore
+
+
+
 Assignment:
 
 We use a lot of external services and API's to accommodate our customers' needs.  One of them is Tax calculation.  There are a lot of Tax calculation API’s out there and we need to be able to work with many of them via a common interface we define in a service class.
